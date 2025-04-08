@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #295E90; /* Background color */
+}
+
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #295E90;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Talent form styles */
+input[type="text"], input[type="number"], input[type="email"], textarea {
+  width: 100%; /* Zorg ervoor dat ze allemaal even breed zijn */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #295E90;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3A80A4;
+}
+
+/* Talent box styles */
+.mb-6 {
+  margin-bottom: 20px;
+}
+
+.p-6 {
+  padding: 20px;
+}
+
+.bg-blue-800 {
+  background-color: #2C3E50;
+}
+
+.text-white {
+  color: white
